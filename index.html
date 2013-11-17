@@ -55,4 +55,20 @@
 
 
 </body>
+
+
+<!-- include backbone script files -->
+<script src="tabRouter.js"></script>
+<script src="infoView.js"></script>
+<script src="aboutView.js"></script>
+
+<!-- initialize backbone router -->
+<script>
+$(function(){
+	var router = new tabRouter();
+	Backbone.history.start();
+});
+
+</script>
+
 </html>
