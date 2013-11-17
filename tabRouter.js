@@ -21,7 +21,7 @@ registry : function(){
 	var registryView = new RegistryView;
 },
 aboutUs : function(){
-	var aboutUsView = new AboutUsView;
+	var aboutUsView = new AboutUsView();
 },
 proposal : function(){
 	var proposalView = new ProposalView;
