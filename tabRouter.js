@@ -4,7 +4,7 @@ var tabRouter = Backbone.Router.extend({
 		'directions/' : 'directions',
 		'accomodations/' : 'accomodations',
 		'registry/' : 'registry',
-		'about/:id' : 'aboutUs',
+		'about' : 'aboutUs',
 		'proposal/' : 'proposal',
 		'pictures/' : 'pictures'
 	},
@@ -20,7 +20,7 @@ var tabRouter = Backbone.Router.extend({
 	registry : function(){
 		var registryView = new RegistryView;
 	},
-	aboutUs : function(id){
+	aboutUs : function(){
 		var aboutUsView = new AboutUsView();
 	},
 	proposal : function(){
