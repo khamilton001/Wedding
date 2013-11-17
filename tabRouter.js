@@ -1,33 +1,33 @@
 var tabRouter = Backbone.Router.extend({
 	routes: {
-		'info/:id' : 'importantInfo',
-		'directions/:id' : 'directions',
-		'accomodations/:id' : 'accomodations',
-		'registry/:id' : 'registry',
-		'about/:id' : 'aboutUs',
-		'proposal/:id' : 'proposal',
-		'pictures/:id' : 'pictures'
+		'info/' : 'importantInfo',
+		'directions/' : 'directions',
+		'accomodations/' : 'accomodations',
+		'registry/' : 'registry',
+		'about/' : 'aboutUs',
+		'proposal/' : 'proposal',
+		'pictures/' : 'pictures'
 	},
-importantInfo : function(id){
-	var importantInfoView = new importantInfoView
+importantInfo : function(){
+	var importantInfoView = new ImportantInfoView;
 },
-directions : function(id){
-	var directionsView = new directionsView
+directions : function(){
+	var directionsView = new DirectionsView;
 },
-accomodations : function(id){
-	var accomodationsView = new accomodationsView
+accomodations : function(){
+	var accomodationsView = new AccomodationsView;
 },
-registry : function(id){
-	var registryView = new registryView
+registry : function(){
+	var registryView = new RegistryView;
 },
-aboutUs : function(id){
-	var aboutUsView = new aboutUsView
+aboutUs : function(){
+	var aboutUsView = new AboutUsView;
 },
-proposal : function(id){
-	var proposalView = new proposalView
+proposal : function(){
+	var proposalView = new ProposalView;
 },
-pictures : function(id){
-	var picturesView = new picturesView
+pictures : function(){
+	var picturesView = new PicturesView;
 }
 
 });
