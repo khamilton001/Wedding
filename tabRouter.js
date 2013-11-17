@@ -4,7 +4,7 @@ var tabRouter = Backbone.Router.extend({
 		'directions/' : 'directions',
 		'accomodations/' : 'accomodations',
 		'registry/' : 'registry',
-		'about' : 'aboutUs',
+		'about/' : 'aboutUs',
 		'proposal/' : 'proposal',
 		'pictures/' : 'pictures'
 	},
