@@ -9,25 +9,25 @@ var tabRouter = Backbone.Router.extend({
 		'pictures/' : 'pictures'
 	},
 	importantInfo : function(){
-		var importantInfoView = new ImportantInfoView;
+		var importantInfoView = new ImportantInfoView();
 	},
 	directions : function(){
-		var directionsView = new DirectionsView;
+		var directionsView = new DirectionsView();
 	},
 	accomodations : function(){
-		var accomodationsView = new AccomodationsView;
+		var accomodationsView = new AccomodationsView();
 	},
 	registry : function(){
-		var registryView = new RegistryView;
+		var registryView = new RegistryView();
 	},
 	aboutUs : function(){
 		var aboutUsView = new AboutUsView();
 	},
 	proposal : function(){
-		var proposalView = new ProposalView;
+		var proposalView = new ProposalView();
 	},
 	pictures : function(){
-		var picturesView = new PicturesView;
+		var picturesView = new PicturesView();
 	}
 
 });
