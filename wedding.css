@@ -1,0 +1,13 @@
+.item {
+    text-align: center;
+    img {
+    	margin: 0 auto;
+    }
+}
+
+.item-active {
+	text-align: center;
+	img {
+		margin: 0 auto;
+	}
+}
