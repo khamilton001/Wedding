@@ -1,12 +1,13 @@
 var tabRouter = Backbone.Router.extend({
 	routes: {
 		'info' : 'importantInfo',
-		'directions/' : 'directions',
-		'accomodations/' : 'accomodations',
-		'registry/' : 'registry',
+		'directions' : 'directions',
+		'accomodations' : 'accomodations',
+		'registry' : 'registry',
 		'about' : 'aboutUs',
-		'proposal/' : 'proposal',
-		'pictures/' : 'pictures'
+		'proposal' : 'proposal',
+		'pictures' : 'pictures',
+		'' : ''
 	},
 	importantInfo : function(){
 		var importantInfoView = new ImportantInfoView();
