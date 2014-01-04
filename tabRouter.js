@@ -6,8 +6,7 @@ var tabRouter = Backbone.Router.extend({
 		'registry' : 'registry',
 		'about' : 'aboutUs',
 		'proposal' : 'proposal',
-		'pictures' : 'pictures',
-		'' : ''
+		'pictures' : 'pictures'
 	},
 	importantInfo : function(){
 		var importantInfoView = new ImportantInfoView();
