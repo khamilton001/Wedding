@@ -23,6 +23,10 @@ opacity:0.5;
 filter:alpha(opacity=30); 
 }
 
+.ui-progressbar {
+    position: relative;
+  }
+
 .progresslabel {
     position: absolute;
     left: 50%;
