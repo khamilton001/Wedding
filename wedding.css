@@ -22,3 +22,9 @@
 opacity:0.3;
 filter:alpha(opacity=30); 
 }
+
+.nav
+{
+opacity:1.0;
+filter:alpha(opacity=100); 
+}
