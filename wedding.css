@@ -17,3 +17,8 @@
 	background-color:#cccccc;
 }
 
+.well
+{
+opacity:0.4;
+filter:alpha(opacity=40); 
+}
