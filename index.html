@@ -123,7 +123,7 @@ $(function(){
 	    // probably not the best, but it should work
 	    percent = ((365 - daysToGo)/365)*100;
 
-	$("#progressbar").progressbar({
+	progressbar.progressbar({
 	    value: percent,
 	    create: function( event, ui) {
 	        $('.progresslabel').append(daysToGo + ' days left!');
