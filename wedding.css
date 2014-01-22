@@ -36,7 +36,7 @@ filter:alpha(opacity=30);
   }
 
 .ui-progressbar-value {
-    background: #6600FF;
+    background: #1E003C;
 }
 
 a:link {color:#1E003C;text-decoration:none;}    /* unvisited link */
@@ -44,5 +44,5 @@ a:visited {color:#1E003C;text-decoration:none;} /* visited link */
 a:hover {color:#1E003C;text-decoration:underline;}   /* mouse over link */
 a:active {color:#1E003C;text-decoration:underline;}  /* selected link */
 
-h3 {color:#1E003C;}
+h2 {color:#1E003C;}
 body {color:#1E003C;font-family:Verdana, Geneva, sans-serif; font-size:16px;}
