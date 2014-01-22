@@ -4,6 +4,6 @@ var AccomodationsView = Backbone.View.extend({
 		this.render();
 	},
 	render: function(){
-		this.$el.empty().append('<p>We will be reserving hotel blocks in the area soon.  Check back for hotel information and directions!</p>');
+		this.$el.empty().append('<p><h2>Accomodations</h2><br><br>We will be reserving hotel blocks in the area soon.  Check back for hotel information and directions!</p>');
 	}
 });
