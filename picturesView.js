@@ -4,6 +4,6 @@ var PicturesView = Backbone.View.extend({
 		this.render();
 	},
 	render: function(){
-		this.$el.empty().append('<p>Pictures coming soon!</p>');
+		this.$el.empty().append('<p><h2>Pictures</h2><br><br>Pictures coming soon!</p>');
 	}
 });
