@@ -45,5 +45,5 @@ a:hover {color:#1E003C;text-decoration:underline;}   /* mouse over link */
 a:active {color:#1E003C;text-decoration:underline;}  /* selected link */
 
 h2 {color:#1E003C;}
-h2 small {color:#29293D;}
+h1 small {color:#29293D;}
 body {color:#1E003C;font-family:Verdana, Geneva, sans-serif; font-size:16px;}
