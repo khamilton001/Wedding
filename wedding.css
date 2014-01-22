@@ -38,3 +38,8 @@ filter:alpha(opacity=30);
 .ui-progressbar-value {
     background: #6600FF;
 }
+
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
