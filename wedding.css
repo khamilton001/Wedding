@@ -17,6 +17,12 @@
 	background-color:#cccccc;
 }
 
+.panel-group
+{
+opacity:0.5;
+filter:alpha(opacity=30);
+}
+
 .well
 {
 opacity:0.5;
