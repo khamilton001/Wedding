@@ -24,6 +24,11 @@ filter:alpha(opacity=30);
 color:#1E003C;
 }
 
+.forcecolor
+{
+color:#1E003C;
+}
+
 .well
 {
 opacity:0.5;
