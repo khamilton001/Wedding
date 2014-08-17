@@ -23,8 +23,6 @@ var tabRouter = Backbone.Router.extend({
 	},
 	questions : function(){
 		var questionsView = new QuestionsView();
-	}
-
 	},
 	aboutUs : function(){
 		var aboutUsView = new AboutUsView();
