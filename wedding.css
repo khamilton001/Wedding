@@ -17,7 +17,7 @@
 	background-color:#cccccc;
 }
 
-.panel-collapse
+.panel-default
 {
 opacity:0.5;
 filter:alpha(opacity=30);
