@@ -17,7 +17,7 @@
 	background-color:#cccccc;
 }
 
-.panel-group
+.panel-heading
 {
 opacity:0.5;
 filter:alpha(opacity=30);
