@@ -21,6 +21,7 @@
 {
 opacity:0.5;
 filter:alpha(opacity=30);
+color:#1E003C;
 }
 
 .well
@@ -52,4 +53,5 @@ a:active {color:#1E003C;text-decoration:underline;}  /* selected link */
 
 h2 {color:#1E003C;}
 h1 small {color:#29293D;}
+h3 {color:#1E003C;}
 body {color:#1E003C;font-family:Verdana, Geneva, sans-serif; font-size:16px;}
